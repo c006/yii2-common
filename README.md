@@ -6,8 +6,21 @@ Yii2 common
 Installation
 ------------
 
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-User `composer.json`
+Either run
+
+`
+php composer.phar require --prefer-dist "c006/yii2-common" "*"
+`
+
+or add
+
+`
+"c006/yii2-common": "*"
+`
+
+to the require section of your `composer.json` file.
 
 
 Composer.json
@@ -28,54 +41,12 @@ Install
 -----------
 
 
-` php composer.phar require --prefer-dist "c006/yii2-common" "dev-master" `
-
-
-
+` php composer.phar require --prefer-dist "c006/yii2-common" "*" `
 
 
 
 Comments
 ---------
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
- 
-  
-  
-  
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
